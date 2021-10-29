@@ -1,0 +1,4 @@
+conda create -n env python=3.6
+conda activate env
+pip install -r requirements.txt
+conda install -c conda-forge dlib=19.19
